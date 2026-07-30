@@ -1,0 +1,1899 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <meta
+    name="description"
+    content="Portfólio pessoal de Victor Arnez. Tecnologia, desenvolvimento, sistemas, produtos digitais e projetos criativos."
+  >
+
+  <meta
+    name="keywords"
+    content="Victor Arnez, tecnologia, desenvolvimento, sistemas, dashboards, sites, produtos digitais, portfólio"
+  >
+
+  <meta name="author" content="Victor Arnez">
+  <meta name="theme-color" content="#07080d">
+
+  <!-- Open Graph -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <meta
+    property="og:title"
+    content="Victor Arnez | Tecnologia e Projetos Digitais"
+  >
+
+  <meta
+    property="og:description"
+    content="Tecnologia, produtos digitais e projetos construídos para necessidades reais."
+  >
+
+  <meta
+    property="og:image"
+    content="assets/img/imgperfil.jpg"
+  >
+
+  <title>Victor Arnez | Tecnologia e Projetos Digitais</title>
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Font Awesome -->
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+
+  <!-- CSS principal -->
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- =====================================================
+       ACESSIBILIDADE
+  ====================================================== -->
+
+  <a class="skip-link" href="#conteudo-principal">
+    Ir para o conteúdo principal
+  </a>
+
+  <noscript>
+    <div class="noscript-message">
+      Algumas animações e interações desta página precisam do JavaScript.
+    </div>
+  </noscript>
+
+  <!-- =====================================================
+       CARREGAMENTO INICIAL
+  ====================================================== -->
+
+  <div class="page-loader" aria-hidden="true">
+
+    <div class="page-loader__content">
+
+      <div class="page-loader__brand">
+        <span>V</span>
+        <span>A</span>
+      </div>
+
+      <div class="page-loader__progress">
+        <span></span>
+      </div>
+
+      <p>Preparando experiência</p>
+
+    </div>
+
+  </div>
+
+  <!-- =====================================================
+       FUNDO DECORATIVO GLOBAL
+  ====================================================== -->
+
+  <div class="global-background" aria-hidden="true">
+
+    <div class="global-background__grid"></div>
+
+    <div
+      class="global-background__glow global-background__glow--one"
+    ></div>
+
+    <div
+      class="global-background__glow global-background__glow--two"
+    ></div>
+
+    <div
+      class="global-background__glow global-background__glow--three"
+    ></div>
+
+    <div class="global-background__noise"></div>
+
+  </div>
+
+  <div class="cursor-light" aria-hidden="true"></div>
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
+
+  <header class="site-header">
+
+    <div class="container site-header__container">
+
+      <!-- Marca provisória -->
+
+      <a
+        class="brand"
+        href="#inicio"
+        aria-label="Voltar ao início"
+      >
+
+        <span class="brand__symbol" aria-hidden="true">
+          VA
+        </span>
+
+        <span class="brand__text">
+
+          <strong>Victor Arnez</strong>
+
+          <small>Digital Projects</small>
+
+        </span>
+
+      </a>
+
+      <!-- Navegação desktop -->
+
+      <nav
+        class="desktop-navigation"
+        aria-label="Navegação principal"
+      >
+
+        <a href="#sobre">Sobre</a>
+
+        <a href="#atuacao">Atuação</a>
+
+        <a href="#projetos">Projetos</a>
+
+        <a href="#conectar">Conectar</a>
+
+      </nav>
+
+      <div class="site-header__actions">
+
+        <button
+          class="header-contact"
+          id="header-whatsapp-button"
+          type="button"
+        >
+          Vamos conversar
+
+          <i
+            class="fa-brands fa-whatsapp"
+            aria-hidden="true"
+          ></i>
+        </button>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+
+          <span></span>
+          <span></span>
+
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- Menu mobile -->
+
+    <div
+      class="mobile-menu"
+      id="mobile-menu"
+      aria-hidden="true"
+    >
+
+      <div
+        class="mobile-menu__background"
+        aria-hidden="true"
+      ></div>
+
+      <nav
+        class="mobile-navigation"
+        aria-label="Navegação para dispositivos móveis"
+      >
+
+        <a href="#inicio">
+
+          <span>01</span>
+
+          Início
+
+        </a>
+
+        <a href="#sobre">
+
+          <span>02</span>
+
+          Sobre
+
+        </a>
+
+        <a href="#atuacao">
+
+          <span>03</span>
+
+          Atuação
+
+        </a>
+
+        <a href="#projetos">
+
+          <span>04</span>
+
+          Projetos
+
+        </a>
+
+        <a href="#conectar">
+
+          <span>05</span>
+
+          Conectar
+
+        </a>
+
+      </nav>
+
+      <div class="mobile-menu__footer">
+
+        <p>
+          Tecnologia, produtos digitais e projetos criativos.
+        </p>
+
+        <button
+          class="mobile-menu__contact"
+          id="mobile-whatsapp-button"
+          type="button"
+        >
+          <i
+            class="fa-brands fa-whatsapp"
+            aria-hidden="true"
+          ></i>
+
+          Conversar pelo WhatsApp
+        </button>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- =====================================================
+       CONTEÚDO PRINCIPAL
+  ====================================================== -->
+
+  <main id="conteudo-principal">
+
+    <!-- ===================================================
+         HERO
+    ==================================================== -->
+
+    <section class="hero" id="inicio">
+
+      <!-- Imagem de fundo enviada -->
+
+      <div class="hero__background" aria-hidden="true">
+
+        <img
+          class="hero__background-image"
+          src="assets/img/imgfundo.png"
+          alt=""
+        >
+
+        <div class="hero__background-overlay"></div>
+
+        <div class="hero__background-gradient"></div>
+
+      </div>
+
+      <div class="container hero__container">
+
+        <!-- Conteúdo principal -->
+
+        <div class="hero__content">
+
+          <div
+            class="hero__eyebrow"
+            data-hero-item
+          >
+
+            <span
+              class="status-indicator"
+              aria-hidden="true"
+            ></span>
+
+            Tecnologia, produtos digitais e criatividade
+
+          </div>
+
+          <h1
+            class="hero__title"
+            aria-label="Transformando ideias em experiências digitais"
+          >
+
+            <span class="hero__title-line">
+
+              <span class="hero__title-word">
+                Transformando
+              </span>
+
+            </span>
+
+            <span class="hero__title-line">
+
+              <span class="hero__title-word hero__title-word--outline">
+                ideias em
+              </span>
+
+            </span>
+
+            <span class="hero__title-line">
+
+              <span class="hero__title-word">
+                experiências
+              </span>
+
+              <span class="hero__title-word hero__title-word--accent">
+                digitais.
+              </span>
+
+            </span>
+
+          </h1>
+
+          <p
+            class="hero__description"
+            data-hero-item
+          >
+            Desenvolvimento, gestão e identidade visual aplicados à
+            criação de sites, sistemas, dashboards e produtos pensados
+            para necessidades reais.
+          </p>
+
+          <div
+            class="hero__actions"
+            data-hero-item
+          >
+
+            <a
+              class="button button--primary"
+              href="#projetos"
+            >
+
+              <span>Conhecer projetos</span>
+
+              <span
+                class="button__icon"
+                aria-hidden="true"
+              >
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+              </span>
+
+            </a>
+
+            <a
+              class="button button--secondary"
+              href="#sobre"
+            >
+              Sobre mim
+            </a>
+
+          </div>
+
+          <div
+            class="hero__information"
+            data-hero-item
+          >
+
+            <div class="hero-information-item">
+
+              <span>Localização</span>
+
+              <strong>Tatuí · São Paulo</strong>
+
+            </div>
+
+            <div class="hero-information-item">
+
+              <span>Formação</span>
+
+              <strong>Gestão de TI</strong>
+
+            </div>
+
+            <div class="hero-information-item">
+
+              <span>Atuação</span>
+
+              <strong>Projetos digitais</strong>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Card de perfil -->
+
+        <div
+          class="hero__visual"
+          data-hero-visual
+        >
+
+          <article class="profile-card">
+
+            <div class="profile-card__top">
+
+              <span class="profile-card__label">
+                Perfil pessoal
+              </span>
+
+              <span class="profile-card__number">
+                01
+              </span>
+
+            </div>
+
+            <div class="profile-card__image-wrapper">
+
+              <div
+                class="profile-card__image-background"
+                aria-hidden="true"
+              ></div>
+
+              <img
+                class="profile-card__image"
+                src="assets/img/imgperfil.jpg"
+                alt="Foto de Victor Arnez"
+              >
+
+              <div
+                class="profile-card__image-overlay"
+                aria-hidden="true"
+              ></div>
+
+              <span class="profile-card__image-caption">
+                Tecnologia &amp; criatividade
+              </span>
+
+            </div>
+
+            <div class="profile-card__content">
+
+              <div>
+
+                <span>Construindo</span>
+
+                <strong>Produtos que resolvem.</strong>
+
+              </div>
+
+              <span
+                class="profile-card__signature"
+                aria-hidden="true"
+              >
+                VA
+              </span>
+
+            </div>
+
+          </article>
+
+          <!-- Elementos flutuantes -->
+
+          <div
+            class="floating-card floating-card--development"
+            aria-hidden="true"
+          >
+
+            <i class="fa-solid fa-code"></i>
+
+            <div>
+
+              <span>Desenvolvimento</span>
+
+              <strong>Sites &amp; sistemas</strong>
+
+            </div>
+
+          </div>
+
+          <div
+            class="floating-card floating-card--strategy"
+            aria-hidden="true"
+          >
+
+            <i class="fa-solid fa-layer-group"></i>
+
+            <div>
+
+              <span>Estratégia</span>
+
+              <strong>Produto &amp; gestão</strong>
+
+            </div>
+
+          </div>
+
+          <div
+            class="hero-orbit hero-orbit--one"
+            aria-hidden="true"
+          ></div>
+
+          <div
+            class="hero-orbit hero-orbit--two"
+            aria-hidden="true"
+          ></div>
+
+        </div>
+
+      </div>
+
+      <div
+        class="hero__scroll"
+        aria-hidden="true"
+      >
+
+        <span>Role para explorar</span>
+
+        <div class="hero__scroll-line">
+
+          <span></span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ===================================================
+         FAIXA DE ESPECIALIDADES
+    ==================================================== -->
+
+    <section
+      class="expertise-strip"
+      aria-label="Áreas de atuação"
+    >
+
+      <div class="expertise-strip__track">
+
+        <span>Sistemas</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <span>Dashboards</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <span>Sites</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <span>Produtos digitais</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <span>Experiência do usuário</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <span>Tecnologia</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <!-- Repetição necessária para a animação contínua -->
+
+        <span>Sistemas</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <span>Dashboards</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <span>Sites</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <span>Produtos digitais</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <span>Experiência do usuário</span>
+        <i class="fa-solid fa-circle"></i>
+
+        <span>Tecnologia</span>
+        <i class="fa-solid fa-circle"></i>
+
+      </div>
+
+    </section>
+
+    <!-- ===================================================
+         SOBRE
+    ==================================================== -->
+
+    <section
+      class="about section"
+      id="sobre"
+    >
+
+      <div class="container">
+
+        <header class="section-heading">
+
+          <span class="section-heading__number">
+            01
+          </span>
+
+          <div>
+
+            <span class="section-heading__eyebrow">
+              Sobre mim
+            </span>
+
+            <h2>
+              Tecnologia com visão
+              <span>além do código.</span>
+            </h2>
+
+          </div>
+
+        </header>
+
+        <div class="about__grid">
+
+          <div
+            class="about__introduction"
+            data-reveal
+          >
+
+            <p class="about__lead">
+              Sou <strong>Victor Arnez</strong>, estudante de Gestão da
+              Tecnologia da Informação e desenvolvedor de projetos digitais.
+            </p>
+
+            <p>
+              Minha trajetória reúne tecnologia, desenvolvimento, gestão
+              de projetos, processos e interesse por experiências visuais
+              bem construídas.
+            </p>
+
+            <p>
+              Gosto de transformar necessidades reais em soluções
+              organizadas, funcionais e preparadas para evoluir.
+              O objetivo não é apenas desenvolver uma interface bonita,
+              mas criar algo que realmente possa ser utilizado.
+            </p>
+
+          </div>
+
+          <div class="about__cards">
+
+            <article
+              class="information-card"
+              data-reveal
+            >
+
+              <span class="information-card__number">
+                01
+              </span>
+
+              <h3>Desenvolvimento</h3>
+
+              <p>
+                Sites, sistemas, dashboards e aplicações construídos com
+                atenção à experiência, desempenho e manutenção.
+              </p>
+
+            </article>
+
+            <article
+              class="information-card"
+              data-reveal
+            >
+
+              <span class="information-card__number">
+                02
+              </span>
+
+              <h3>Gestão e estratégia</h3>
+
+              <p>
+                Organização de necessidades, funcionalidades e processos
+                para transformar ideias em projetos possíveis.
+              </p>
+
+            </article>
+
+            <article
+              class="information-card"
+              data-reveal
+            >
+
+              <span class="information-card__number">
+                03
+              </span>
+
+              <h3>Identidade e experiência</h3>
+
+              <p>
+                Interfaces responsivas e coerentes que valorizam a função,
+                a identidade e a percepção de cada produto.
+              </p>
+
+            </article>
+
+          </div>
+
+        </div>
+
+        <div
+          class="about__quote"
+          data-reveal
+        >
+
+          <i
+            class="fa-solid fa-quote-left"
+            aria-hidden="true"
+          ></i>
+
+          <blockquote>
+            Um bom projeto não começa escolhendo uma tecnologia.
+            Começa entendendo o que realmente precisa ser resolvido.
+          </blockquote>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ===================================================
+         ÁREAS DE ATUAÇÃO
+    ==================================================== -->
+
+    <section
+      class="services section"
+      id="atuacao"
+    >
+
+      <div class="container">
+
+        <header class="section-heading">
+
+          <span class="section-heading__number">
+            02
+          </span>
+
+          <div>
+
+            <span class="section-heading__eyebrow">
+              Áreas de atuação
+            </span>
+
+            <h2>
+              Ideia, estrutura
+              <span>e execução.</span>
+            </h2>
+
+          </div>
+
+        </header>
+
+        <div class="services__grid">
+
+          <article
+            class="service-card"
+            data-service-card
+          >
+
+            <div class="service-card__header">
+
+              <span class="service-card__number">
+                01
+              </span>
+
+              <div class="service-card__icon">
+
+                <i
+                  class="fa-solid fa-chart-column"
+                  aria-hidden="true"
+                ></i>
+
+              </div>
+
+            </div>
+
+            <div class="service-card__content">
+
+              <h3>Sistemas e dashboards</h3>
+
+              <p>
+                Plataformas para organizar operações, acompanhar dados,
+                facilitar rotinas e transformar informações em decisões.
+              </p>
+
+            </div>
+
+            <ul class="service-card__tags">
+
+              <li>Gestão</li>
+
+              <li>Indicadores</li>
+
+              <li>Automação</li>
+
+            </ul>
+
+          </article>
+
+          <article
+            class="service-card"
+            data-service-card
+          >
+
+            <div class="service-card__header">
+
+              <span class="service-card__number">
+                02
+              </span>
+
+              <div class="service-card__icon">
+
+                <i
+                  class="fa-solid fa-display"
+                  aria-hidden="true"
+                ></i>
+
+              </div>
+
+            </div>
+
+            <div class="service-card__content">
+
+              <h3>Sites e experiências web</h3>
+
+              <p>
+                Landing pages, portais e sites institucionais responsivos,
+                modernos e alinhados à identidade de cada projeto.
+              </p>
+
+            </div>
+
+            <ul class="service-card__tags">
+
+              <li>Responsivo</li>
+
+              <li>SEO</li>
+
+              <li>Performance</li>
+
+            </ul>
+
+          </article>
+
+          <article
+            class="service-card"
+            data-service-card
+          >
+
+            <div class="service-card__header">
+
+              <span class="service-card__number">
+                03
+              </span>
+
+              <div class="service-card__icon">
+
+                <i
+                  class="fa-solid fa-cubes"
+                  aria-hidden="true"
+                ></i>
+
+              </div>
+
+            </div>
+
+            <div class="service-card__content">
+
+              <h3>Produtos digitais</h3>
+
+              <p>
+                Desenvolvimento de produtos pensados para solucionar
+                problemas, validar ideias e evoluir de forma contínua.
+              </p>
+
+            </div>
+
+            <ul class="service-card__tags">
+
+              <li>Produto</li>
+
+              <li>SaaS</li>
+
+              <li>Experiência</li>
+
+            </ul>
+
+          </article>
+
+          <article
+            class="service-card"
+            data-service-card
+          >
+
+            <div class="service-card__header">
+
+              <span class="service-card__number">
+                04
+              </span>
+
+              <div class="service-card__icon">
+
+                <i
+                  class="fa-solid fa-diagram-project"
+                  aria-hidden="true"
+                ></i>
+
+              </div>
+
+            </div>
+
+            <div class="service-card__content">
+
+              <h3>Tecnologia e infraestrutura</h3>
+
+              <p>
+                Planejamento e organização de soluções tecnológicas para
+                empresas, equipes e necessidades específicas.
+              </p>
+
+            </div>
+
+            <ul class="service-card__tags">
+
+              <li>Nuvem</li>
+
+              <li>Processos</li>
+
+              <li>Estrutura</li>
+
+            </ul>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ===================================================
+         PROJETOS
+    ==================================================== -->
+
+    <section
+      class="projects section"
+      id="projetos"
+    >
+
+      <div class="container">
+
+        <header class="section-heading section-heading--with-description">
+
+          <span class="section-heading__number">
+            03
+          </span>
+
+          <div>
+
+            <span class="section-heading__eyebrow">
+              Projetos selecionados
+            </span>
+
+            <h2>
+              Da necessidade
+              <span>ao produto.</span>
+            </h2>
+
+          </div>
+
+          <p class="section-heading__description">
+            Alguns dos sistemas, produtos e experiências digitais
+            desenvolvidos ou atualmente em desenvolvimento.
+          </p>
+
+        </header>
+
+        <div class="projects__grid">
+
+          <!-- Projeto FLUUX -->
+
+          <article
+            class="project-card project-card--featured"
+            data-project-card
+          >
+
+            <div class="project-card__visual">
+
+              <div
+                class="project-card__visual-background project-card__visual-background--fluux"
+              ></div>
+
+              <span class="project-card__status">
+                Em desenvolvimento
+              </span>
+
+              <div class="project-card__mockup">
+
+                <i
+                  class="fa-solid fa-list-check"
+                  aria-hidden="true"
+                ></i>
+
+                <span>Organização de demandas</span>
+
+              </div>
+
+            </div>
+
+            <div class="project-card__information">
+
+              <div class="project-card__heading">
+
+                <div>
+
+                  <span class="project-card__category">
+                    Dashboard · Gestão
+                  </span>
+
+                  <h3>FLUUX</h3>
+
+                </div>
+
+                <span class="project-card__year">
+                  2026
+                </span>
+
+              </div>
+
+              <p>
+                Dashboard responsivo para organização, acompanhamento e
+                análise de demandas, prioridades, responsáveis e resultados.
+              </p>
+
+              <ul class="project-card__technologies">
+
+                <li>HTML</li>
+
+                <li>CSS</li>
+
+                <li>JavaScript</li>
+
+                <li>Supabase</li>
+
+              </ul>
+
+            </div>
+
+          </article>
+
+          <!-- Projeto VISUS -->
+
+          <article
+            class="project-card"
+            data-project-card
+          >
+
+            <div class="project-card__visual">
+
+              <div
+                class="project-card__visual-background project-card__visual-background--visus"
+              ></div>
+
+              <span class="project-card__status">
+                Produto digital
+              </span>
+
+              <div class="project-card__mockup">
+
+                <i
+                  class="fa-solid fa-play"
+                  aria-hidden="true"
+                ></i>
+
+                <span>Experiência multidispositivo</span>
+
+              </div>
+
+            </div>
+
+            <div class="project-card__information">
+
+              <div class="project-card__heading">
+
+                <div>
+
+                  <span class="project-card__category">
+                    Aplicativo · Multidispositivo
+                  </span>
+
+                  <h3>VISUS</h3>
+
+                </div>
+
+                <span class="project-card__year">
+                  2026
+                </span>
+
+              </div>
+
+              <p>
+                Premium Media Player desenvolvido para proporcionar uma
+                experiência adaptada a televisores, celulares e tablets.
+              </p>
+
+              <ul class="project-card__technologies">
+
+                <li>Flutter</li>
+
+                <li>Dart</li>
+
+                <li>Android TV</li>
+
+                <li>UX</li>
+
+              </ul>
+
+            </div>
+
+          </article>
+
+          <!-- Projeto PDV -->
+
+          <article
+            class="project-card"
+            data-project-card
+          >
+
+            <div class="project-card__visual">
+
+              <div
+                class="project-card__visual-background project-card__visual-background--pdv"
+              ></div>
+
+              <span class="project-card__status">
+                Sistema SaaS
+              </span>
+
+              <div class="project-card__mockup">
+
+                <i
+                  class="fa-solid fa-cash-register"
+                  aria-hidden="true"
+                ></i>
+
+                <span>Gestão comercial integrada</span>
+
+              </div>
+
+            </div>
+
+            <div class="project-card__information">
+
+              <div class="project-card__heading">
+
+                <div>
+
+                  <span class="project-card__category">
+                    Sistema · Gestão comercial
+                  </span>
+
+                  <h3>Plataforma PDV</h3>
+
+                </div>
+
+                <span class="project-card__year">
+                  2026
+                </span>
+
+              </div>
+
+              <p>
+                Plataforma multiempresa para vendas, caixa, produtos,
+                clientes, relatórios, agenda, operadores e outros módulos.
+              </p>
+
+              <ul class="project-card__technologies">
+
+                <li>JavaScript</li>
+
+                <li>Supabase</li>
+
+                <li>SaaS</li>
+
+                <li>RLS</li>
+
+              </ul>
+
+            </div>
+
+          </article>
+
+          <!-- Projetos web -->
+
+          <article
+            class="project-card"
+            data-project-card
+          >
+
+            <div class="project-card__visual">
+
+              <div
+                class="project-card__visual-background project-card__visual-background--web"
+              ></div>
+
+              <span class="project-card__status">
+                Desenvolvimento web
+              </span>
+
+              <div class="project-card__mockup">
+
+                <i
+                  class="fa-solid fa-window-maximize"
+                  aria-hidden="true"
+                ></i>
+
+                <span>Sites e presença digital</span>
+
+              </div>
+
+            </div>
+
+            <div class="project-card__information">
+
+              <div class="project-card__heading">
+
+                <div>
+
+                  <span class="project-card__category">
+                    Websites · Experiência
+                  </span>
+
+                  <h3>Projetos Web</h3>
+
+                </div>
+
+                <span class="project-card__year">
+                  2025–26
+                </span>
+
+              </div>
+
+              <p>
+                Sites institucionais, páginas comerciais e experiências
+                digitais construídas para diferentes marcas e necessidades.
+              </p>
+
+              <ul class="project-card__technologies">
+
+                <li>Web Design</li>
+
+                <li>Responsivo</li>
+
+                <li>SEO</li>
+
+                <li>Interface</li>
+
+              </ul>
+
+            </div>
+
+          </article>
+
+        </div>
+
+        <div
+          class="projects__footer"
+          data-reveal
+        >
+
+          <p>
+            Projetos, estudos e novas experiências serão adicionados
+            gradualmente.
+          </p>
+
+          <a
+            class="text-link"
+            href="https://github.com/victor-arnez-93"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver perfil no GitHub
+
+            <i
+              class="fa-solid fa-arrow-up-right-from-square"
+              aria-hidden="true"
+            ></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ===================================================
+         PROCESSO
+    ==================================================== -->
+
+    <section class="process section">
+
+      <div class="container">
+
+        <header class="section-heading">
+
+          <span class="section-heading__number">
+            04
+          </span>
+
+          <div>
+
+            <span class="section-heading__eyebrow">
+              Processo
+            </span>
+
+            <h2>
+              Clareza em cada
+              <span>etapa do projeto.</span>
+            </h2>
+
+          </div>
+
+        </header>
+
+        <div class="process__list">
+
+          <article
+            class="process-step"
+            data-process-step
+          >
+
+            <span class="process-step__number">
+              01
+            </span>
+
+            <div class="process-step__content">
+
+              <h3>Entender</h3>
+
+              <p>
+                Compreender o cenário, as necessidades, as limitações
+                e o resultado esperado.
+              </p>
+
+            </div>
+
+            <i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+
+          </article>
+
+          <article
+            class="process-step"
+            data-process-step
+          >
+
+            <span class="process-step__number">
+              02
+            </span>
+
+            <div class="process-step__content">
+
+              <h3>Estruturar</h3>
+
+              <p>
+                Organizar funcionalidades, prioridades, arquitetura
+                e experiência.
+              </p>
+
+            </div>
+
+            <i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+
+          </article>
+
+          <article
+            class="process-step"
+            data-process-step
+          >
+
+            <span class="process-step__number">
+              03
+            </span>
+
+            <div class="process-step__content">
+
+              <h3>Construir</h3>
+
+              <p>
+                Desenvolver a solução com testes, acompanhamento
+                e evolução progressiva.
+              </p>
+
+            </div>
+
+            <i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+
+          </article>
+
+          <article
+            class="process-step"
+            data-process-step
+          >
+
+            <span class="process-step__number">
+              04
+            </span>
+
+            <div class="process-step__content">
+
+              <h3>Evoluir</h3>
+
+              <p>
+                Aprimorar o produto com base no uso real, nos feedbacks
+                e em novas oportunidades.
+              </p>
+
+            </div>
+
+            <i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ===================================================
+         REDES SOCIAIS
+    ==================================================== -->
+
+    <section
+      class="connections section"
+      id="conectar"
+    >
+
+      <div class="container">
+
+        <header class="section-heading">
+
+          <span class="section-heading__number">
+            05
+          </span>
+
+          <div>
+
+            <span class="section-heading__eyebrow">
+              Presença digital
+            </span>
+
+            <h2>
+              Ideias também crescem
+              <span>através de conexões.</span>
+            </h2>
+
+          </div>
+
+        </header>
+
+        <div class="connections__grid">
+
+          <!-- LinkedIn -->
+
+          <a
+            class="social-card"
+            href="https://www.linkedin.com/in/victor-arnez"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-social-card
+          >
+
+            <div class="social-card__icon">
+
+              <i
+                class="fa-brands fa-linkedin-in"
+                aria-hidden="true"
+              ></i>
+
+            </div>
+
+            <div class="social-card__content">
+
+              <span>Perfil profissional</span>
+
+              <strong>LinkedIn</strong>
+
+              <small>/in/victor-arnez</small>
+
+            </div>
+
+            <i
+              class="social-card__arrow fa-solid fa-arrow-up-right-from-square"
+              aria-hidden="true"
+            ></i>
+
+          </a>
+
+          <!-- GitHub -->
+
+          <a
+            class="social-card"
+            href="https://github.com/victor-arnez-93"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-social-card
+          >
+
+            <div class="social-card__icon">
+
+              <i
+                class="fa-brands fa-github"
+                aria-hidden="true"
+              ></i>
+
+            </div>
+
+            <div class="social-card__content">
+
+              <span>Código e projetos</span>
+
+              <strong>GitHub</strong>
+
+              <small>@victor-arnez-93</small>
+
+            </div>
+
+            <i
+              class="social-card__arrow fa-solid fa-arrow-up-right-from-square"
+              aria-hidden="true"
+            ></i>
+
+          </a>
+
+          <!-- Instagram -->
+
+          <a
+            class="social-card"
+            href="https://www.instagram.com/victor__arnez"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-social-card
+          >
+
+            <div class="social-card__icon">
+
+              <i
+                class="fa-brands fa-instagram"
+                aria-hidden="true"
+              ></i>
+
+            </div>
+
+            <div class="social-card__content">
+
+              <span>Projetos e cotidiano</span>
+
+              <strong>Instagram</strong>
+
+              <small>@victor__arnez</small>
+
+            </div>
+
+            <i
+              class="social-card__arrow fa-solid fa-arrow-up-right-from-square"
+              aria-hidden="true"
+            ></i>
+
+          </a>
+
+          <!-- WhatsApp -->
+
+          <button
+            class="social-card social-card--button"
+            id="social-whatsapp-button"
+            type="button"
+            data-social-card
+          >
+
+            <div class="social-card__icon">
+
+              <i
+                class="fa-brands fa-whatsapp"
+                aria-hidden="true"
+              ></i>
+
+            </div>
+
+            <div class="social-card__content">
+
+              <span>Contato direto</span>
+
+              <strong>WhatsApp</strong>
+
+              <small>Conversar sobre um projeto</small>
+
+            </div>
+
+            <i
+              class="social-card__arrow fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ===================================================
+         CHAMADA PARA CONTATO
+    ==================================================== -->
+
+    <section
+      class="contact section"
+      id="contato"
+    >
+
+      <div class="container">
+
+        <div class="contact__box">
+
+          <div
+            class="contact__glow"
+            aria-hidden="true"
+          ></div>
+
+          <div class="contact__content">
+
+            <span class="contact__eyebrow">
+              Tem uma ideia ou projeto?
+            </span>
+
+            <h2>
+              Vamos transformar possibilidades
+              <span>em algo real.</span>
+            </h2>
+
+            <p>
+              Estou aberto a conversar sobre tecnologia, produtos digitais,
+              desenvolvimento, parcerias e novos projetos.
+            </p>
+
+          </div>
+
+          <div class="contact__actions">
+
+            <button
+              class="button button--primary button--large"
+              id="contact-whatsapp-button"
+              type="button"
+            >
+
+              <i
+                class="fa-brands fa-whatsapp"
+                aria-hidden="true"
+              ></i>
+
+              <span>Conversar pelo WhatsApp</span>
+
+            </button>
+
+            <a
+              class="button button--secondary button--large"
+              href="https://www.instagram.com/victor__arnez"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <i
+                class="fa-brands fa-instagram"
+                aria-hidden="true"
+              ></i>
+
+              <span>Acessar Instagram</span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- =====================================================
+       RODAPÉ
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <div class="container site-footer__main">
+
+      <div class="site-footer__brand">
+
+        <a
+          class="brand brand--footer"
+          href="#inicio"
+          aria-label="Voltar ao início"
+        >
+
+          <span
+            class="brand__symbol"
+            aria-hidden="true"
+          >
+            VA
+          </span>
+
+          <span class="brand__text">
+
+            <strong>Victor Arnez</strong>
+
+            <small>Digital Projects</small>
+
+          </span>
+
+        </a>
+
+        <p>
+          Tecnologia, produtos digitais e projetos criativos.
+        </p>
+
+      </div>
+
+      <div class="site-footer__navigation">
+
+        <div class="footer-column">
+
+          <span class="footer-column__title">
+            Navegação
+          </span>
+
+          <a href="#sobre">Sobre</a>
+
+          <a href="#atuacao">Atuação</a>
+
+          <a href="#projetos">Projetos</a>
+
+          <a href="#conectar">Conectar</a>
+
+        </div>
+
+        <div class="footer-column">
+
+          <span class="footer-column__title">
+            Redes
+          </span>
+
+          <a
+            href="https://www.linkedin.com/in/victor-arnez"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/victor-arnez-93"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.instagram.com/victor__arnez"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container site-footer__bottom">
+
+      <p>
+        © <span id="current-year">2026</span>
+        Victor Arnez. Todos os direitos reservados.
+      </p>
+
+      <a href="#inicio">
+
+        Voltar ao topo
+
+        <i
+          class="fa-solid fa-arrow-up"
+          aria-hidden="true"
+        ></i>
+
+      </a>
+
+    </div>
+
+  </footer>
+
+  <!-- =====================================================
+       BIBLIOTECAS DE ANIMAÇÃO
+  ====================================================== -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"
+  ></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"
+  ></script>
+
+  <!-- JavaScript principal -->
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
