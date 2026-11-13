@@ -137,11 +137,11 @@ h1, h2, h3, nav, button, .gold-button, .eyebrow, .skill-line, .footer-bottom {
 }
 
 .dark-bg {
-  background-image: url('../img/fundo-dark.webp');
+  background-image: url('../img/fundo-dark.png');
 }
 
 .light-bg {
-  background-image: url('../img/fundo-light.webp');
+  background-image: url('../img/fundo-light.png');
   opacity: 0;
 }
 
@@ -193,6 +193,8 @@ html[data-theme="light"] .neon-overlay {
 }
 
 .site-header {
+  position: relative;
+  z-index: 10;
   background: var(--header);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(16px);
