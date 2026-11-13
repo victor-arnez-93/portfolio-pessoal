@@ -21,7 +21,59 @@
 </head>
 <body>
 <a class="skip-link" href="#inicio" data-i18n="skip">Ir para o conteúdo</a>
-<div class="living-background" aria-hidden="true"><div class="background-layer dark-bg"></div><div class="background-layer light-bg"></div><svg class="neon-overlay" viewBox="0 0 1672 941" preserveAspectRatio="xMidYMid slice"><defs><filter id="glow"><feGaussianBlur stdDeviation="3"/></filter></defs><g class="neon-lines"><path d="M0 367H163Q181 367 200 349L438 111Q455 92 480 92H586Q613 92 633 72L705 0"/><path d="M911 941 1144 815Q1159 807 1178 807H1240L1392 674Q1410 656 1430 656H1672"/><path d="M1349 65H1484L1549 0M1413 96H1501L1579 24H1672M1514 199 1609 103H1672"/></g><g class="hex-glow"><path d="M58 44 82 2H130L154 44 130 84H82ZM82 84H130L154 125 130 166H82L58 125ZM154 44H202L226 84 202 125H154L130 84Z"/><path d="M1510 508H1558L1582 549 1558 590H1510L1486 549ZM1582 466H1630L1654 507 1630 549H1582L1558 507Z"/></g><g class="travel-light"><path d="M0 367H163L438 92H606L705 0"/><path d="M911 941 1159 807H1240L1410 656H1672"/></g></svg></div>
+<div class="living-background" aria-hidden="true">
+  <div class="background-layer dark-bg"></div>
+  <div class="background-layer light-bg"></div>
+
+  <svg
+    class="neon-overlay"
+    viewBox="0 0 1672 941"
+    preserveAspectRatio="xMidYMid slice"
+  >
+    <defs>
+      <filter
+        id="glow"
+        x="-60%"
+        y="-60%"
+        width="220%"
+        height="220%"
+      >
+        <feGaussianBlur
+          in="SourceGraphic"
+          stdDeviation="3.2"
+          result="halo"
+        />
+        <feMerge>
+          <feMergeNode in="halo"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+
+    <!-- Linhas com brilho pulsante -->
+    <g class="neon-lines">
+      <path d="M0 367H163Q181 367 200 349L438 111Q455 92 480 92H586Q613 92 633 72L705 0"/>
+      <path d="M911 941 1144 815Q1159 807 1178 807H1240L1392 674Q1410 656 1430 656H1672"/>
+      <path d="M1349 65H1484L1549 0M1413 96H1501L1579 24H1672M1514 199 1609 103H1672"/>
+    </g>
+
+    <!-- Hexágonos com animação independente -->
+    <g class="hex-glow">
+      <path d="M58 44 82 2H130L154 44 130 84H82Z"/>
+      <path d="M58 125 82 84H130L154 125 130 166H82Z"/>
+      <path d="M130 84 154 44H202L226 84 202 125H154Z"/>
+      <path d="M1486 549 1510 508H1558L1582 549 1558 590H1510Z"/>
+      <path d="M1558 507 1582 466H1630L1654 507 1630 549H1582Z"/>
+    </g>
+
+    <!-- Luz percorrendo continuamente os circuitos -->
+    <g class="travel-light">
+      <path d="M0 367H163L438 92H606L705 0"/>
+      <path d="M911 941 1159 807H1240L1410 656H1672"/>
+      <path d="M1349 65H1484L1549 0M1413 96H1501L1579 24H1672M1514 199 1609 103H1672"/>
+    </g>
+  </svg>
+</div>
 <header class="site-header"><div class="container header-inner">
 <a class="brand shine" href="#inicio" aria-label="ARNZ LABS"><img src="assets/img/logo-arnz.webp" alt="ARNZ LABS" width="1463" height="1067"></a>
 <nav class="main-nav" aria-label="Navegação principal" data-aria="nav"><a href="#sobre" data-i18n="about">Sobre</a><a href="#trabalho" data-i18n="work">O que faço</a><a href="#contato" data-i18n="contact">Contato</a></nav>
